@@ -132,12 +132,19 @@ export default function Home() {
           {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
         </Button>
       </Flex>
-      <Heading
-        as={'h2'}
-        fontSize='2xl'
-        mb='4'>URL:
-        <Text></Text>
-      </Heading>
+      <Flex
+      align={'center'}
+      mb='10'
+      gap='2'>
+        <Heading
+          as={'h2'}
+          fontSize='2xl'>
+            URL:
+        </Heading>
+        <Text
+          fontSize='2xl'
+        >Teste</Text>
+      </Flex>
       <Flex
         flexDir='column'
         mb='10'>
